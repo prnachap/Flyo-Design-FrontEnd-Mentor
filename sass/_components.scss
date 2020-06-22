@@ -1,0 +1,20 @@
+// buttons
+.btn {
+  border: none;
+  display: inline-block;
+  padding: 1.3rem 8rem;
+  border-radius: 1.8rem;
+  background-image: linear-gradient(to right, $cyan, $blue);
+  cursor: pointer;
+  color: $white;
+
+  &--cta {
+    padding: 1rem 4rem;
+    @media (max-width: 41.5em) {
+      padding: 1rem 1rem;
+      width: 60%;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
